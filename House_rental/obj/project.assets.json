@@ -1539,11 +1539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rj\\source\\repos\\House_rental\\House_rental\\House_rental.csproj",
+      "projectUniqueName": "C:\\Users\\rj\\source\\repos\\myproject\\House_rental\\House_rental.csproj",
       "projectName": "House_rental",
-      "projectPath": "C:\\Users\\rj\\source\\repos\\House_rental\\House_rental\\House_rental.csproj",
+      "projectPath": "C:\\Users\\rj\\source\\repos\\myproject\\House_rental\\House_rental.csproj",
       "packagesPath": "C:\\Users\\rj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rj\\source\\repos\\House_rental\\House_rental\\obj\\",
+      "outputPath": "C:\\Users\\rj\\source\\repos\\myproject\\House_rental\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
