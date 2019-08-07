@@ -55,6 +55,8 @@
 				android:textColor="#17619E"
 				
 				/>
+       
+           
 
 		<Button android:id="@+id/logIn"
 			android:layout_height="50dp"
@@ -96,7 +98,7 @@
 		/>
 
 		<Button 
-            android:id="@+id/signUp"
+            android:id="@+id/sign_Up2"
 			android:layout_height="50dp"
 			android:layout_width="wrap_content"
 			android:paddingLeft="20dp"

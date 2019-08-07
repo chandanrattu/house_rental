@@ -24,8 +24,15 @@ namespace House_rental
            signin = FindViewById<Button>(Resource.Id.signIn);
 
             signup.Click += Signup_act;
+            signin.Click += Signin_act;
 
+        }
 
+        private void Signin_act(object sender, EventArgs e)
+        {
+            Intent loginPage = new Intent(this, typeof(Signin));
+
+            StartActivity(loginPage);
         }
 
         private void Signup_act(object sender, EventArgs e)

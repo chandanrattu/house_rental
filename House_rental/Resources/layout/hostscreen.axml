@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+	android:background="#D0D3D4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+       android:layout_width="200dp"
+       android:layout_height="200dp"
+       android:src="@drawable/house"/> 
+            <EditText
+				android:id="@+id/ad_title"
+				android:layout_height="50dp"
+				android:layout_width="match_parent"
+				android:hint="Enter Title"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:background="@drawable/edt_round"
+				android:paddingLeft="20dp"
+				android:layout_marginTop="20dp"
+                />
+            <EditText
+				android:id="@+id/ad_description"
+				android:layout_height="50dp"
+                
+				android:layout_width="match_parent"
+				android:hint="Enter Description"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:background="@drawable/edt_round"
+				android:paddingLeft="20dp"
+				android:layout_marginTop="20dp" 
+                 />
+             <EditText
+				android:id="@+id/ad_price"
+				android:layout_height="50dp"
+                
+				android:layout_width="match_parent"
+				android:hint="Enter Price"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:background="@drawable/edt_round"
+				android:paddingLeft="20dp"
+				android:layout_marginTop="20dp" 
+                 />
+
+            <Spinner
+        android:background="@drawable/edt_round"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:layout_marginTop="20dp"
+        android:id="@+id/region_id"/>
+
+       <Button android:id="@+id/ad_post"
+			android:layout_height="50dp"
+			android:layout_width="match_parent"
+			android:layout_marginLeft="20dp"
+			android:layout_marginRight="20dp"
+			android:layout_marginTop="20dp"
+			android:text="Post Ad"
+			android:textColor="#D0D3D4"
+            android:textSize="20dp"
+			android:background="@drawable/btn_round"
+			android:layout_marginBottom="20dp"
+			/>
+
+            <Button android:id="@+id/viewad_post"
+			android:layout_height="50dp"
+			android:layout_width="match_parent"
+			android:layout_marginLeft="20dp"
+			android:layout_marginRight="20dp"
+			android:layout_marginTop="20dp"
+			android:text="View Posted Ad"
+			android:textColor="#D0D3D4"
+            android:textSize="20dp"
+			android:background="@drawable/btn_round"
+			android:layout_marginBottom="20dp"
+			/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

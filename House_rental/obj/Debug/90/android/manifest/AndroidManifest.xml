@@ -4,14 +4,19 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <application android:allowBackup="true" android:icon="@drawable/logo" android:label="@string/app_name" android:roundIcon="@drawable/logo" android:supportsRtl="true" android:theme="@style/AppTheme" android:name="android.app.Application" android:debuggable="true">
+  <application android:allowBackup="true" android:icon="@drawable/logo" android:label="@string/app_name" android:roundIcon="@drawable/logo" android:supportsRtl="true" android:name="android.app.Application" android:debuggable="true">
+    <activity android:label="HostPanel" android:theme="@style/AppTheme" android:name="md5cd430e737bedbcd7c1c6f08b729f9574.HostPanel" />
     <activity android:label="@string/app_name" android:theme="@style/AppTheme" android:name="md5cd430e737bedbcd7c1c6f08b729f9574.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="Sign_up" android:name="md5cd430e737bedbcd7c1c6f08b729f9574.Sign_up" />
+    <activity android:label="Signin" android:theme="@style/AppTheme" android:name="md5cd430e737bedbcd7c1c6f08b729f9574.Signin" />
+    <activity android:label="Sign_up" android:theme="@style/AppTheme" android:name="md5cd430e737bedbcd7c1c6f08b729f9574.Sign_up" />
+    <activity android:label="UserPanel" android:name="md5cd430e737bedbcd7c1c6f08b729f9574.UserPanel" />
+    <activity android:label="User_tab_bar" android:name="md5cd430e737bedbcd7c1c6f08b729f9574.User_tab_bar" />
+    <activity android:label="View_House" android:theme="@style/AppTheme" android:name="md5cd430e737bedbcd7c1c6f08b729f9574.View_House" />
     <service android:name="md5dcb6eccdc824e0677ffae8ccdde42930.KeepAliveService" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" android:name="md5d630c3d3bfb5f5558520331566132d97.BatteryBroadcastReceiver" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" android:name="md5d630c3d3bfb5f5558520331566132d97.EnergySaverBroadcastReceiver" />

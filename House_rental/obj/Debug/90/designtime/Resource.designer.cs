@@ -3120,7 +3120,13 @@ namespace House_rental
 			public const int avd_show_password = 2131296342;
 			
 			// aapt resource value: 0x7F010002
-			public const int btn_round = 2130771970;
+			public const int backyard = 2130771970;
+			
+			// aapt resource value: 0x7F010003
+			public const int beauty = 2130771971;
+			
+			// aapt resource value: 0x7F010004
+			public const int btn_round = 2130771972;
 			
 			// aapt resource value: 0x7F090057
 			public const int design_bottom_navigation_item_background = 2131296343;
@@ -3140,8 +3146,11 @@ namespace House_rental
 			// aapt resource value: 0x7F09005C
 			public const int design_snackbar_background = 2131296348;
 			
-			// aapt resource value: 0x7F010003
-			public const int edt_round = 2130771971;
+			// aapt resource value: 0x7F010005
+			public const int edt_round = 2130771973;
+			
+			// aapt resource value: 0x7F010006
+			public const int house = 2130771974;
 			
 			// aapt resource value: 0x7F09005D
 			public const int ic_mtrl_chip_checked_black = 2131296349;
@@ -3152,8 +3161,14 @@ namespace House_rental
 			// aapt resource value: 0x7F09005F
 			public const int ic_mtrl_chip_close_circle = 2131296351;
 			
-			// aapt resource value: 0x7F010004
-			public const int logo = 2130771972;
+			// aapt resource value: 0x7F010007
+			public const int inside = 2130771975;
+			
+			// aapt resource value: 0x7F010008
+			public const int inside2 = 2130771976;
+			
+			// aapt resource value: 0x7F010009
+			public const int logo = 2130771977;
 			
 			// aapt resource value: 0x7F090060
 			public const int mtrl_snackbar_background = 2131296352;
@@ -3200,8 +3215,17 @@ namespace House_rental
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010005
-			public const int round_btn2 = 2130771973;
+			// aapt resource value: 0x7F010010
+			public const int pic = 2130771984;
+			
+			// aapt resource value: 0x7F010011
+			public const int round_btn2 = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int side = 2130771986;
+			
+			// aapt resource value: 0x7F010013
+			public const int stairs = 2130771987;
 			
 			// aapt resource value: 0x7F09006F
 			public const int tooltip_frame_dark = 2131296367;
@@ -3282,8 +3306,20 @@ namespace House_rental
 			// aapt resource value: 0x7F0C0014
 			public const int add = 2131492884;
 			
-			// aapt resource value: 0x7F020011
-			public const int age = 2130837521;
+			// aapt resource value: 0x7F020026
+			public const int ad_description = 2130837542;
+			
+			// aapt resource value: 0x7F020029
+			public const int ad_post = 2130837545;
+			
+			// aapt resource value: 0x7F020027
+			public const int ad_price = 2130837543;
+			
+			// aapt resource value: 0x7F020025
+			public const int ad_title = 2130837541;
+			
+			// aapt resource value: 0x7F020037
+			public const int age = 2130837559;
 			
 			// aapt resource value: 0x7F0C0015
 			public const int alertTitle = 2131492885;
@@ -3366,11 +3402,44 @@ namespace House_rental
 			// aapt resource value: 0x7F0C002A
 			public const int design_navigation_view = 2131492906;
 			
+			// aapt resource value: 0x7F020014
+			public const int edit_age = 2130837524;
+			
+			// aapt resource value: 0x7F020016
+			public const int edit_email = 2130837526;
+			
+			// aapt resource value: 0x7F020012
+			public const int edit_fn = 2130837522;
+			
+			// aapt resource value: 0x7F020013
+			public const int edit_ln = 2130837523;
+			
+			// aapt resource value: 0x7F020015
+			public const int edit_mobile_no = 2130837525;
+			
+			// aapt resource value: 0x7F020017
+			public const int edit_passwd = 2130837527;
+			
 			// aapt resource value: 0x7F0C002B
 			public const int edit_query = 2131492907;
 			
-			// aapt resource value: 0x7F020013
-			public const int email = 2130837523;
+			// aapt resource value: 0x7F020019
+			public const int edit_radio_hoster = 2130837529;
+			
+			// aapt resource value: 0x7F020018
+			public const int edit_radio_user = 2130837528;
+			
+			// aapt resource value: 0x7F020020
+			public const int edit_securityques = 2130837536;
+			
+			// aapt resource value: 0x7F020021
+			public const int edit_security_ans = 2130837537;
+			
+			// aapt resource value: 0x7F020022
+			public const int edit_update = 2130837538;
+			
+			// aapt resource value: 0x7F020039
+			public const int email = 2130837561;
 			
 			// aapt resource value: 0x7F0C000A
 			public const int end = 2131492874;
@@ -3381,6 +3450,9 @@ namespace House_rental
 			// aapt resource value: 0x7F0C002D
 			public const int expand_activities_button = 2131492909;
 			
+			// aapt resource value: 0x7F020052
+			public const int fav = 2130837586;
+			
 			// aapt resource value: 0x7F0C002F
 			public const int fill = 2131492911;
 			
@@ -3390,11 +3462,14 @@ namespace House_rental
 			// aapt resource value: 0x7F0C0031
 			public const int @fixed = 2131492913;
 			
-			// aapt resource value: 0x7F020009
-			public const int fn = 2130837513;
+			// aapt resource value: 0x7F020035
+			public const int fn = 2130837557;
 			
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;
+			
+			// aapt resource value: 0x7F020046
+			public const int frameLayout1 = 2130837574;
 			
 			// aapt resource value: 0x7F0C0033
 			public const int ghost_view = 2131492915;
@@ -3405,14 +3480,29 @@ namespace House_rental
 			// aapt resource value: 0x7F0C0035
 			public const int home = 2131492917;
 			
+			// aapt resource value: 0x7F020049
+			public const int house_description = 2130837577;
+			
+			// aapt resource value: 0x7F020050
+			public const int house_price = 2130837584;
+			
+			// aapt resource value: 0x7F020051
+			public const int house_region = 2130837585;
+			
+			// aapt resource value: 0x7F020048
+			public const int house_title = 2130837576;
+			
+			// aapt resource value: 0x7F020047
+			public const int house_view = 2130837575;
+			
 			// aapt resource value: 0x7F0C000A
 			public const int icon = 2131492874;
 			
 			// aapt resource value: 0x7F0C000B
 			public const int icon_group = 2131492875;
 			
-			// aapt resource value: 0x7F0C0038
-			public const int image = 2131492920;
+			// aapt resource value: 0x7F020008
+			public const int image = 2130837512;
 			
 			// aapt resource value: 0x7F0C000C
 			public const int info = 2131492876;
@@ -3447,14 +3537,23 @@ namespace House_rental
 			// aapt resource value: 0x7F0C0041
 			public const int listMode = 2131492929;
 			
+			// aapt resource value: 0x7F020007
+			public const int listView1 = 2130837511;
+			
+			// aapt resource value: 0x7F020024
+			public const int list_favads = 2130837540;
+			
 			// aapt resource value: 0x7F0C0042
 			public const int list_item = 2131492930;
 			
-			// aapt resource value: 0x7F020010
-			public const int ln = 2130837520;
+			// aapt resource value: 0x7F020036
+			public const int ln = 2130837558;
 			
-			// aapt resource value: 0x7F020008
-			public const int logIn = 2130837512;
+			// aapt resource value: 0x7F020033
+			public const int logIn = 2130837555;
+			
+			// aapt resource value: 0x7F020053
+			public const int make_call = 2130837587;
 			
 			// aapt resource value: 0x7F0C0043
 			public const int masked = 2131492931;
@@ -3465,8 +3564,8 @@ namespace House_rental
 			// aapt resource value: 0x7F0C0045
 			public const int mini = 2131492933;
 			
-			// aapt resource value: 0x7F020012
-			public const int mobile_no = 2130837522;
+			// aapt resource value: 0x7F020038
+			public const int mobile_no = 2130837560;
 			
 			// aapt resource value: 0x7F0C0046
 			public const int mtrl_child_content_container = 2131492934;
@@ -3507,14 +3606,17 @@ namespace House_rental
 			// aapt resource value: 0x7F0C0052
 			public const int parent_matrix = 2131492946;
 			
-			// aapt resource value: 0x7F020014
-			public const int passwd = 2130837524;
+			// aapt resource value: 0x7F020040
+			public const int passwd = 2130837568;
 			
-			// aapt resource value: 0x7F020007
-			public const int password = 2130837511;
+			// aapt resource value: 0x7F020032
+			public const int password = 2130837554;
 			
 			// aapt resource value: 0x7F0C0053
 			public const int pin = 2131492947;
+			
+			// aapt resource value: 0x7F020010
+			public const int price_ofad = 2130837520;
 			
 			// aapt resource value: 0x7F0C0054
 			public const int progress_circular = 2131492948;
@@ -3524,6 +3626,21 @@ namespace House_rental
 			
 			// aapt resource value: 0x7F0C0056
 			public const int radio = 2131492950;
+			
+			// aapt resource value: 0x7F020042
+			public const int radio_hoster = 2130837570;
+			
+			// aapt resource value: 0x7F020041
+			public const int radio_user = 2130837569;
+			
+			// aapt resource value: 0x7F020028
+			public const int region_id = 2130837544;
+			
+			// aapt resource value: 0x7F020011
+			public const int regio_ofad = 2130837521;
+			
+			// aapt resource value: 0x7F020045
+			public const int register = 2130837573;
 			
 			// aapt resource value: 0x7F0C0018
 			public const int right = 2131492888;
@@ -3558,6 +3675,9 @@ namespace House_rental
 			// aapt resource value: 0x7F0C0060
 			public const int scrollView = 2131492960;
 			
+			// aapt resource value: 0x7F020006
+			public const int searchView1 = 2130837510;
+			
 			// aapt resource value: 0x7F0C0062
 			public const int search_badge = 2131492962;
 			
@@ -3572,6 +3692,9 @@ namespace House_rental
 			
 			// aapt resource value: 0x7F0C0066
 			public const int search_edit_frame = 2131492966;
+			
+			// aapt resource value: 0x7F020023
+			public const int search_favads = 2130837539;
 			
 			// aapt resource value: 0x7F0C0067
 			public const int search_go_btn = 2131492967;
@@ -3588,6 +3711,12 @@ namespace House_rental
 			// aapt resource value: 0x7F0C006B
 			public const int search_voice_btn = 2131492971;
 			
+			// aapt resource value: 0x7F020043
+			public const int securityques = 2130837571;
+			
+			// aapt resource value: 0x7F020044
+			public const int security_ans = 2130837572;
+			
 			// aapt resource value: 0x7F0C006D
 			public const int selected = 2131492973;
 			
@@ -3602,6 +3731,9 @@ namespace House_rental
 			
 			// aapt resource value: 0x7F020004
 			public const int signUp = 2130837508;
+			
+			// aapt resource value: 0x7F020034
+			public const int sign_Up2 = 2130837556;
 			
 			// aapt resource value: 0x7F0C006F
 			public const int smallLabel = 2131492975;
@@ -3684,6 +3816,9 @@ namespace House_rental
 			// aapt resource value: 0x7F0C0089
 			public const int titleDividerNoCustom = 2131493001;
 			
+			// aapt resource value: 0x7F020009
+			public const int title_ofad = 2130837513;
+			
 			// aapt resource value: 0x7F0C008A
 			public const int title_template = 2131493002;
 			
@@ -3720,8 +3855,11 @@ namespace House_rental
 			// aapt resource value: 0x7F0C0095
 			public const int up = 2131493013;
 			
-			// aapt resource value: 0x7F020006
-			public const int userName = 2130837510;
+			// aapt resource value: 0x7F020031
+			public const int userName = 2130837553;
+			
+			// aapt resource value: 0x7F020030
+			public const int viewad_post = 2130837552;
 			
 			// aapt resource value: 0x7F0C0096
 			public const int view_offset_helper = 2131493014;
@@ -3915,11 +4053,17 @@ namespace House_rental
 			// aapt resource value: 0x7F030002
 			public const int activity_main = 2130903042;
 			
+			// aapt resource value: 0x7F030003
+			public const int ads_fragment = 2130903043;
+			
 			// aapt resource value: 0x7F0F0001
 			public const int browser_actions_context_menu_page = 2131689473;
 			
 			// aapt resource value: 0x7F0F0002
 			public const int browser_actions_context_menu_row = 2131689474;
+			
+			// aapt resource value: 0x7F030004
+			public const int customList = 2130903044;
 			
 			// aapt resource value: 0x7F0F001D
 			public const int design_bottom_navigation_item = 2131689501;
@@ -3963,6 +4107,21 @@ namespace House_rental
 			// aapt resource value: 0x7F0F002A
 			public const int design_text_input_password_icon = 2131689514;
 			
+			// aapt resource value: 0x7F030005
+			public const int edit_profile = 2130903045;
+			
+			// aapt resource value: 0x7F030006
+			public const int fav_ads_fragment = 2130903046;
+			
+			// aapt resource value: 0x7F030007
+			public const int hostscreen = 2130903047;
+			
+			// aapt resource value: 0x7F030008
+			public const int layout1 = 2130903048;
+			
+			// aapt resource value: 0x7F030009
+			public const int layout2 = 2130903049;
+			
 			// aapt resource value: 0x7F0F002B
 			public const int mtrl_layout_snackbar = 2131689515;
 			
@@ -3996,14 +4155,23 @@ namespace House_rental
 			// aapt resource value: 0x7F0F0035
 			public const int select_dialog_singlechoice_material = 2131689525;
 			
-			// aapt resource value: 0x7F030003
-			public const int signin = 2130903043;
+			// aapt resource value: 0x7F030010
+			public const int signin = 2130903056;
 			
-			// aapt resource value: 0x7F030004
-			public const int signup = 2130903044;
+			// aapt resource value: 0x7F030011
+			public const int signup = 2130903057;
 			
 			// aapt resource value: 0x7F0F0036
 			public const int support_simple_spinner_dropdown_item = 2131689526;
+			
+			// aapt resource value: 0x7F030012
+			public const int tab_bar_user = 2130903058;
+			
+			// aapt resource value: 0x7F030013
+			public const int userscreen = 2130903059;
+			
+			// aapt resource value: 0x7F030014
+			public const int viewHouse = 2130903060;
 			
 			static Layout()
 			{
