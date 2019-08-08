@@ -73,6 +73,7 @@
     <Compile Include="user.cs" />
     <Compile Include="UserPanel.cs" />
     <Compile Include="User_tab_bar.cs" />
+    <Compile Include="ViewPostedads.cs" />
     <Compile Include="View_House.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -210,6 +211,15 @@
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\view_posted_ads.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Menu\mainMenu.xml" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
     Other similar extension points exist, see Microsoft.Common.targets.

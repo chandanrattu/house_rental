@@ -51,7 +51,7 @@ namespace House_rental
 
                 myView.FindViewById<ImageView>(Resource.Id.image).SetImageResource(Resource.Drawable.inside);
                 myView.FindViewById<TextView>(Resource.Id.title_ofad).Text = usersObj.vad_titleFRomDb;
-                myView.FindViewById<TextView>(Resource.Id.price_ofad).Text = "Price" + usersObj.vpriceFromDb;
+                myView.FindViewById<TextView>(Resource.Id.price_ofad).Text = "Price " + usersObj.vpriceFromDb;
                 myView.FindViewById<TextView>(Resource.Id.regio_ofad).Text = "Region " + usersObj.vregionFromDb;
             }
 

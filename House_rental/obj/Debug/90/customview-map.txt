@@ -33,6 +33,9 @@ ImageView;obj\Debug\90\res\layout\hostscreen.xml
 ImageView;obj\Debug\90\res\layout\signin.xml
 ImageView;obj\Debug\90\res\layout\signup.xml
 ImageView;obj\Debug\90\res\layout\viewhouse.xml
+item;obj\Debug\90\res\menu\mainmenu.xml
+item;obj\Debug\90\res\mymenu\mainmenu.xml
+item;obj\Debug\90\res\values\mainmenu.xml
 item;obj\Debug\90\res\values\styles.xml
 LinearLayout;obj\Debug\90\res\layout\activity_main.xml
 LinearLayout;obj\Debug\90\res\layout\ads_fragment.xml
@@ -46,9 +49,14 @@ LinearLayout;obj\Debug\90\res\layout\signin.xml
 LinearLayout;obj\Debug\90\res\layout\signup.xml
 LinearLayout;obj\Debug\90\res\layout\tab_bar_user.xml
 LinearLayout;obj\Debug\90\res\layout\userscreen.xml
+LinearLayout;obj\Debug\90\res\layout\view_posted_ads.xml
 LinearLayout;obj\Debug\90\res\layout\viewhouse.xml
 ListView;obj\Debug\90\res\layout\ads_fragment.xml
 ListView;obj\Debug\90\res\layout\fav_ads_fragment.xml
+ListView;obj\Debug\90\res\layout\layout1.xml
+menu;obj\Debug\90\res\menu\mainmenu.xml
+menu;obj\Debug\90\res\mymenu\mainmenu.xml
+menu;obj\Debug\90\res\values\mainmenu.xml
 paths;C:\Users\rj\source\repos\myproject\House_rental\obj\Debug\90\lp\36\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 RadioButton;obj\Debug\90\res\layout\edit_profile.xml
 RadioButton;obj\Debug\90\res\layout\signin.xml

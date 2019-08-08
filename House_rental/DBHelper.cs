@@ -189,12 +189,25 @@ namespace House_rental
             return myDBObj.RawQuery(selectAllSQL, null);
         }
 
+
+        public ICursor showAll_postedAds(string email)
+        {
+            String selectAllSQL = "select * from " + Table_ads + " where " + Column_ad_email + "=" + "'" + email + "'";
+            return myDBObj.RawQuery(selectAllSQL, null);
+        }
         public ICursor showAllfavAds(string email)
         {
             String selectAllAds = "select * from " + Table_fav_ads + " where " + Column_f_ad_email + "=" + "'"+ email + "'";
             return myDBObj.RawQuery(selectAllAds, null);
         }
 
+        public void deleteAds(string name, int id)
+        {
+
+            String myDelete = "delete from " + Table_ads + " where " + Column_ad_email + "=" + "'" + name + "' and " + Column_id + "= " + id;
+            myDBObj.ExecSQL(myDelete);
+
+        }
         public void deleteFavAds(string name,int id)
         {
 

@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace House_rental
 {
-    [Activity(Label = "Sign_up", Theme = "@style/AppTheme")]
+    [Activity(Label = "Sign_up")]
     public class Sign_up : Activity
     {
 

@@ -13,7 +13,7 @@ using Xamarin.Essentials;
 
 namespace House_rental
 {
-    [Activity(Label = "View_House", Theme = "@style/AppTheme")]
+    [Activity(Label = "View_House")]
     public class View_House : Activity
     {
         string nm,vid,vt,vd,vp,vr;
@@ -64,8 +64,8 @@ namespace House_rental
             f_id = Convert.ToInt32(vid);
             h_title.Text = vt;
             h_description.Text = vd;
-            h_price.Text = vp;
-            h_region.Text = vr;
+            h_price.Text = "Price $"+vp;
+            h_region.Text = "Location :" + vr;
 
             help = new DBHelper(this);
             add_to_fav.Click += addtofav_Mathod;

@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace House_rental
 {
-    [Activity(Label = "HostPanel", Theme = "@style/AppTheme")]
+    [Activity(Label = "HostPanel")]
     public class HostPanel : Activity
     {
         string nm, pswd;
@@ -24,7 +24,7 @@ namespace House_rental
         string[] myREgion = { "Mississauga", "Brampton", "Toronto" ,"Scarborough","North York"};
 
         string ur_ad_title,ur_ad_description,ur_Price_ad,ur_region;
-        Button post_ad;
+        Button post_ad,view_post_ad;
         Android.App.AlertDialog.Builder myAlert;
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -37,7 +37,7 @@ namespace House_rental
             Price_ad = FindViewById<EditText>(Resource.Id.ad_price);
             region_ad = FindViewById<Spinner>(Resource.Id.region_id);
             post_ad= FindViewById<Button>(Resource.Id.ad_post);
-
+            view_post_ad = FindViewById<Button>(Resource.Id.viewad_post);
 
 
             region_ad.Adapter = new ArrayAdapter
@@ -45,9 +45,23 @@ namespace House_rental
 
             myAlert = new Android.App.AlertDialog.Builder(this);
 
+            nm = Intent.GetStringExtra("email");
+            pswd = Intent.GetStringExtra("code");
+
+            Toast.MakeText(this, nm, ToastLength.Short).Show();
+
             region_ad.ItemSelected += MyItemSelectedMethod;
             post_ad.Click += postAdmathod;
+            view_post_ad.Click += view_postedasmethod;
            
+
+        }
+
+        private void view_postedasmethod(object sender, EventArgs e)
+        {
+            Intent view_ads = new Intent(this, typeof(ViewPostedads));
+            view_ads.PutExtra("un", nm);
+            StartActivity(view_ads);
 
         }
 
@@ -83,10 +97,9 @@ namespace House_rental
             else {
 
                 help = new DBHelper(this);
-                nm = Intent.GetStringExtra("email");
-                pswd = Intent.GetStringExtra("code");
+                
                 help.insertMyadds(ur_ad_title, ur_ad_description, ur_Price_ad, ur_region,nm);
-                Toast.MakeText(this, "You are successfully published ads", ToastLength.Long).Show();
+                Toast.MakeText(this, "You have successfully published ads", ToastLength.Long).Show();
             }
 
            
@@ -106,6 +119,34 @@ namespace House_rental
         private void OkAction(object sender, DialogClickEventArgs e)
         {
             System.Console.WriteLine("Ok button is clicked!!!");
+        }
+
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            switch (item.ItemId)
+            {
+                case Resource.Id.menuItem1:
+                    {
+                        // add your code  
+                        return true;
+                    }
+                case Resource.Id.menuItem2:
+                    {
+                        Intent loginPage = new Intent(this, typeof(Signin));
+
+                        StartActivity(loginPage);
+                        return true;
+                    }
+
+            }
+
+            return base.OnOptionsItemSelected(item);
+        }
+
+        public override bool OnCreateOptionsMenu(IMenu menu)
+        {
+            MenuInflater.Inflate(Resource.Menu.mainMenu, menu);
+            return base.OnCreateOptionsMenu(menu);
         }
     }
 }

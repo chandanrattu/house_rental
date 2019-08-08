@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">House_rental</string>
     <string name="action_settings">Settings</string>
+  <string name="menuItem1">About us</string>
+  <string name="menuItem2">Sign out</string>
+  
 </resources>

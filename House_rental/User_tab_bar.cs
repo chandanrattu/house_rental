@@ -18,6 +18,35 @@ namespace House_rental
 
         string nm, pswd;
         Fragment[] _fragmentsArray;
+
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            switch (item.ItemId)
+            {
+                case Resource.Id.menuItem1:
+                    {
+                        // add your code  
+                        return true;
+                    }
+                case Resource.Id.menuItem2:
+                    {
+                        Intent loginPage = new Intent(this, typeof(Signin));
+
+                        StartActivity(loginPage);
+                        return true;
+                    }
+                
+            }
+
+            return base.OnOptionsItemSelected(item);
+        }
+
+        public override bool OnCreateOptionsMenu(IMenu menu)
+        {
+            MenuInflater.Inflate(Resource.Menu.mainMenu, menu);
+            return base.OnCreateOptionsMenu(menu);
+        }
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
 
@@ -50,10 +79,6 @@ namespace House_rental
             Android.App.ActionBar.Tab tab = ActionBar.NewTab();
             tab.SetText(tabTitle);
             
-
-
-            tab.SetIcon(Android.Resource.Drawable.IcInputAdd);
-
             tab.TabSelected += TabOnTabSelected;
 
             ActionBar.AddTab(tab);

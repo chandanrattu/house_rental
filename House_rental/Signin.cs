@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace House_rental
 {
-    [Activity(Label = "Signin", Theme = "@style/AppTheme")]
+    [Activity(Label = "Signin")]
     public class Signin : Activity
     {
         EditText name, pwd;

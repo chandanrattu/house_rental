@@ -592,3 +592,6 @@ C:\Users\rj\source\repos\myproject\House_rental\obj\Debug\90\android\src\md5cd43
 C:\Users\rj\source\repos\myproject\House_rental\obj\Debug\90\res\drawable\next.png
 C:\Users\rj\source\repos\myproject\House_rental\obj\Debug\90\res\drawable\back.png
 C:\Users\rj\source\repos\myproject\House_rental\obj\Debug\90\res\layout\layout1.xml
+C:\Users\rj\source\repos\myproject\House_rental\obj\Debug\90\res\layout\view_posted_ads.xml
+C:\Users\rj\source\repos\myproject\House_rental\obj\Debug\90\android\src\md5cd430e737bedbcd7c1c6f08b729f9574\ViewPostedads.java
+C:\Users\rj\source\repos\myproject\House_rental\obj\Debug\90\res\menu\mainmenu.xml
