@@ -20,7 +20,7 @@ namespace House_rental
 
         EditText first_nm, last_nm, _age, mob_no, _email, _password, sec_ans;
         RadioButton u, h,rb;
-        Button update;
+        Button update,delete;
         string update_user_type,ques;
         string user_type = " ";
         DBHelper help;
@@ -60,6 +60,7 @@ namespace House_rental
             h = myView.FindViewById<RadioButton>(Resource.Id.edit_radio_hoster);
             edit_spinner = myView.FindViewById<Spinner>(Resource.Id.edit_securityques);
             update = myView.FindViewById<Button>(Resource.Id.edit_update);
+            delete = myView.FindViewById<Button>(Resource.Id.edit_delete);
             // set dATA TO FIELDS
             help = new DBHelper(Activity);
 
@@ -84,9 +85,20 @@ namespace House_rental
 
             u.Click += RadioButtonClick;
             h.Click += RadioButtonClick;
-
+            delete.Click += Delete_user;
             update.Click += updateDetails;
             return myView;
+        }
+
+        private void Delete_user(object sender, EventArgs e)
+        {
+
+            help = new DBHelper(Activity);
+            help.delete_user(vnm);
+            Toast.MakeText(Activity, "Deletion successful", ToastLength.Long).Show();
+
+            Intent i = new Intent(Activity, typeof(Signin));
+            StartActivity(i);
         }
 
         private void RadioButtonClick(object sender, EventArgs e)

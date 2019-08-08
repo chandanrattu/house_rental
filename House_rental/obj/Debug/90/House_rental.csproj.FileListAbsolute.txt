@@ -589,4 +589,6 @@ C:\Users\rj\source\repos\myproject\House_rental\obj\Debug\90\res\layout\customli
 C:\Users\rj\source\repos\myproject\House_rental\obj\Debug\90\android\src\md5cd430e737bedbcd7c1c6f08b729f9574\CustomAdapter.java
 C:\Users\rj\source\repos\myproject\House_rental\obj\Debug\90\res\layout\viewhouse.xml
 C:\Users\rj\source\repos\myproject\House_rental\obj\Debug\90\android\src\md5cd430e737bedbcd7c1c6f08b729f9574\View_House.java
+C:\Users\rj\source\repos\myproject\House_rental\obj\Debug\90\res\drawable\next.png
+C:\Users\rj\source\repos\myproject\House_rental\obj\Debug\90\res\drawable\back.png
 C:\Users\rj\source\repos\myproject\House_rental\obj\Debug\90\res\layout\layout1.xml

@@ -195,10 +195,10 @@ namespace House_rental
             return myDBObj.RawQuery(selectAllAds, null);
         }
 
-        public void deleteFavAds(string name)
+        public void deleteFavAds(string name,int id)
         {
 
-            String myDelete = "delete from " + TableName + " where " + Column_f_ad_email + "=" + "'" + name + "'";
+            String myDelete = "delete from " + Table_fav_ads + " where " + Column_f_ad_email + "=" + "'" + name +  "' and " + Column_f_id + "= " + id;
             myDBObj.ExecSQL(myDelete);
 
         }
@@ -315,6 +315,30 @@ namespace House_rental
 
             }
             return userInfo;
+        }
+
+        public void delete_user(string email)
+        {
+            String deleteSQL = "delete from " + TableName + " where " + ColumnEmail + " = '" + email + "'";
+
+            System.Console.WriteLine("Delete User " + deleteSQL);
+            myDBObj.ExecSQL(deleteSQL);
+        }
+
+        public bool check_fav_ad(string email, int id)
+        {
+            string select = "select * from " + Table_fav_ads + " where " + Column_f_ad_email + "=" + "'" + email +  "' and " + Column_f_id + "= " + id ;
+
+            ICursor result = myDBObj.RawQuery(select, null);
+
+            if (result.Count > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
 

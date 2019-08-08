@@ -78,7 +78,32 @@ namespace House_rental
             myListView.Adapter = myAdapter;
 
             myListView.ItemClick += MyListView_ItemClick;
+            mySearchView.QueryTextChange += MySearchView_QueryTextChange;
             return myView;
+        }
+
+        private void MySearchView_QueryTextChange(object sender, SearchView.QueryTextChangeEventArgs e)
+        {
+            string searchValue = e.NewText;
+            System.Console.WriteLine("value is: " + searchValue);
+
+
+            List<user> newHouses = new List<user>();
+
+
+
+            foreach (user userObj in myUserList)
+            {
+                if (userObj.vad_titleFRomDb.Contains(searchValue))
+                {
+                    newHouses.Add(userObj);
+                }
+            }
+
+            //myAdapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1, newStringArray);
+
+            var myAdapter = new CustomAdapter(Activity, newHouses);
+            myListView.Adapter = myAdapter;
         }
 
         private void MyListView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)

@@ -43,6 +43,8 @@ namespace House_rental
             region_ad.Adapter = new ArrayAdapter
                 (this, Android.Resource.Layout.SimpleListItem1, myREgion);
 
+            myAlert = new Android.App.AlertDialog.Builder(this);
+
             region_ad.ItemSelected += MyItemSelectedMethod;
             post_ad.Click += postAdmathod;
            
